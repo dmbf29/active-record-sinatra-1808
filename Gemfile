@@ -6,4 +6,4 @@ gem "rake"
 gem "sinatra"
 gem "sinatra-activerecord"
 gem "sinatra-contrib"
-gem "sqlite3"
+gem "sqlite3", '~> 1.7.3'

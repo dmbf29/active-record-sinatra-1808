@@ -1,0 +1,12 @@
+<h1>Restaurants</h1>
+<!-- er + tab -> wont show in the view -->
+<% @restaurants %>
+<!-- pe + tab -> will show in the view -->
+<%=  %>
+
+<% @restaurants.each do |restaurant| %>
+  <p><a href="/restaurants/<%= restaurant.id %>"><%= restaurant.name %></a></p>
+  <p><%= restaurant.address %></p>
+<% end %>
+
+<p><a href="/restaurants/new">New Restaurant</a></p>

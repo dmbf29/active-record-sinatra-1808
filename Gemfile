@@ -6,6 +6,7 @@ gem "pry"
 gem "rake"
 gem "sinatra"
 gem "puma"
+gem "activerecord", '~> 7.1.3.2'
 gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "sqlite3", '~> 1.7.3'
